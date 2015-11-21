@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="testtesttest" verbose="1" >
+  <test name="testtest" >
+    <classes>
+       <class name="Demo.Test1"/>
+    </classes>
+  </test>
+ 
+ 
+  <test name="Regression1">
+    <classes>
+      <class name="Demo.Test2"/>
+      <class name="Demo.DB_Test"/>
+    </classes>
+  </test>
+  
+  
+</suite>
